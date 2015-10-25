@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # Bibtex edit tool ver 0.2
-# removes dot (.) from the end of string
+# removes dot (.) from the end of a string
 # no regular expression were used
 
 import argparse
