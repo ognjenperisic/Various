@@ -12,7 +12,7 @@ chains = []
 
 f_in  = open(sys.argv[1], 'r')
 for line in f_in:  
-   elements = line.split()
+   elements = line.split() # this line is not correct, using 'split' is not correct
    if elements[0]=='ATOM' and elements[2]=='CA':
    #if elements[0]=='ATOM':
 
